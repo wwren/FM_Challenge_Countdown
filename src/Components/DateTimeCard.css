@@ -1,0 +1,46 @@
+.card___wrapper {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+p.text-description {
+  text-transform: uppercase;
+  color: var(--grayishBlue);
+  letter-spacing: 1.4px;
+}
+
+.card {
+  font-size: 45px;
+  color: var(--softRed);
+  position: relative;
+}
+
+.card::before,
+.card::after {
+  width: 100px;
+  height: 30px;
+  background-color: var(--darkblue);
+  position: absolute;
+  font-weight: 700;
+}
+
+.card::before {
+  left: -50px;
+  content: attr(data-before-content);
+  z-index: 2;
+  border-radius: 5px 5px 15px 15px;
+  border-bottom: 1px solid black;
+}
+
+.card::after {
+  z-index: 0;
+  content: "";
+  left: -50px;
+  top: 30px;
+  border-radius: 15px 15px 5px 5px;
+}

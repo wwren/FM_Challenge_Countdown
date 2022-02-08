@@ -1,0 +1,6 @@
+.background {
+  height: 80vh;
+  width: 100vw;
+  background-image: url(http://localhost:3000/static/media/bg-stars.166881a….svg);
+  background-color: var(--mostlyblack);
+}

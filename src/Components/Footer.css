@@ -1,0 +1,14 @@
+footer {
+  background-image: url("./pattern-hills.svg");
+  background-color: var(--mostlyblack);
+  height: 100vh;
+}
+
+.icons__wrapper {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+  margin: auto;
+  height: 10%;
+  align-items: flex-end;
+}
