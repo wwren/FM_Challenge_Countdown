@@ -43,4 +43,13 @@ p.text-description {
   left: -50px;
   top: 30px;
   border-radius: 15px 15px 5px 5px;
+  box-shadow: 0 3px black;
+}
+
+@media only screen and (max-width: 414px) {
+  .card::before,
+  .card::after {
+    width: 70px;
+    left: -30px;
+  }
 }
